@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (SE_Lab15.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Error.cpp
+  In.cpp
+D:\LABS2\KPO\translator\SE_Lab15\In.cpp(33,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\LABS2\KPO\translator\SE_Lab15\In.cpp(61,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\LABS2\KPO\translator\SE_Lab15\In.cpp(79,25): warning C4018: <: несоответствие типов со знаком и без знака
+  Log.cpp
+  Out.cpp
+  Parm.cpp
+  SE_Lab14.cpp
+  Test.cpp
+  Создание кода...
+  SE_Lab15.vcxproj -> D:\LABS2\KPO\translator\Debug\translator.exe

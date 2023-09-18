@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\LABS2\ASD\ConsoleApplication1\ConsoleApplication1.cpp(50,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\ASD\ConsoleApplication1\ConsoleApplication1.cpp(63,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  ConsoleApplication1.vcxproj -> D:\LABS2\ASD\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
