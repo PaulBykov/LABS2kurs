@@ -1,0 +1,3 @@
+D:\Semestr_3\KPO_Labs\Lab20\Lab20\Debug\Lab20.exe
+D:\LABS2\KPO\17\Lab20\Lab20\Debug\Lab17.exe
+D:\LABS2\KPO\17\Lab17\Lab17\Debug\Lab17.exe

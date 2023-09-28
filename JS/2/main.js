@@ -51,9 +51,8 @@ function engReversedString(str){
 }
 
 
-function stringMultiply(n , str){
-    return str.repeat(n);
-}
+const func = (n , str) => str.repeat(n);
+
 
 
 function getUniqueElemenets(str1, str2){
