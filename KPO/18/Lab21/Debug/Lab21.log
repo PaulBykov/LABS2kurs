@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Lab21.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Error.cpp
+  FST.cpp
+D:\LABS2\KPO\18\Lab21\FST.cpp(62,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  GRB.cpp
+  In.cpp
+  IT.cpp
+D:\LABS2\KPO\18\Lab21\IT.cpp(79,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+D:\LABS2\KPO\18\Lab21\IT.cpp(99,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+  Lab18.cpp
+  LexAnalysis.cpp
+D:\LABS2\KPO\18\Lab21\LexAnalysis.cpp(80,17): warning C4305: =: усечение из "int" в "char"
+D:\LABS2\KPO\18\Lab21\LexAnalysis.cpp(80,17): warning C4309: =: усечение константного значения
+  Log.cpp
+  LT.cpp
+  MFST.cpp
+D:\LABS2\KPO\18\Lab21\MFST.cpp(237,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Out.cpp
+  Parm.cpp
+  Создание кода...
+D:\LABS2\KPO\18\Lab21\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\18\Lab21\IT.cpp(160): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\18\Lab21\IT.cpp(192): warning C4172: возвращение адреса локальной или временной переменной : buffer
+  Lab21.vcxproj -> D:\LABS2\KPO\18\Debug\18.exe

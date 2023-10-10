@@ -52,3 +52,55 @@ function test2(){
 
 }
 test2();
+
+
+function test3(){
+    const testMode = true; // вызывать функцию беспрерывно
+
+    let x = 0
+    let y = 0
+
+    const step = 10;
+    const makeMove = function(){
+        const direction = prompt("Enter left, right, up or down: ")
+
+
+        switch (direction){
+            case "left":
+                x -= step;
+                break;
+            case "right":
+                x += step;
+                break;
+            case "up":
+                y += step;
+                break;
+            case "down":
+                y -= step;
+                break;
+        }
+
+        console.log(`x: ${x} \t y: ${y}`);
+
+    }
+
+    if(testMode === true){
+        while(true){
+            makeMove();
+        }
+    }
+
+}
+
+
+function test4(){
+
+    let testVariable = 0;
+
+    for(item in window){
+        console.log(item);
+    }
+
+    window.innerWidth = 1000;
+    window.testVariable = 10;
+}
