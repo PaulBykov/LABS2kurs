@@ -15,7 +15,22 @@ start()
 
 
 function test1(){
-    let productSet = new Set(["1", "2", "3", "5", "9"])
+    const laptop = {name: "laptop"};
+    const someProducts = [
+        laptop,
+        {
+            name: "tablet",
+        },
+        {
+            name: "piano",
+        },
+        {
+            name: "phone",
+        }
+    ]
+
+    let productSet = new Set(someProducts)
+
 
     const addNewProduct = ((product) => {
         productSet.add(product);
@@ -32,11 +47,10 @@ function test1(){
 
     console.log(productSet);
 
-    addNewProduct("8");
-    removeProduct("3");
+    addNewProduct({name: "mouse"});
+    removeProduct(laptop);
     
-    console.log(hasProduct("1"));
-    console.log(hasProduct("4"));
+    console.log(hasProduct({name: "mouse"}));
     console.log(productSet.length);
 
     console.log(productSet);
@@ -44,65 +58,107 @@ function test1(){
 
 
 function test2(){
-    let studentList = new Set();
+    const someStudents = [
+        {
+            ID: 1,
+            group: 6,
+            fullName: "Pavel Bykov Alexeevich"
+        },
+        {
+            ID: 2,
+            group: 4,
+            fullName: "Stas Rozel Olegovich"
+        },
+        {
+            ID: 7,
+            group: 4,
+            fullName: "Alexander Ivashkevich Olegovich"
+        },
+        {
+            ID: 4,
+            group: 4,
+            fullName: "Nikolay Beloded Ivanovich"
+        },
+    ]
 
-    const student1 = {
-        ID: 12,
-        group: 6,
-        fullName: "Pavel Bykov Alexeevich"
-    }
+    let studentList = new Set(someStudents);
 
     const addStudent = ((student) => {
         studentList.add(student);
     })
 
     const removeStudentByNumber = ((number) => {
-        for(student of studentList){
-            if(student.ID == number){
+        for(const student of studentList){
+            if(student.ID === number){
                 studentList.delete(student);
             }
         }
     })
 
-
     const filterByGroup = ((group) => {
-        for(student of studentList){
+        for(const student of studentList){
             if(student.group !== group){
                 studentList.delete(student);
             }
         }
     })
 
+    const sortByID = (() => {
+        let sortedArray = Array.from(studentList).sort((a, b) => a.ID - b.ID);
+        studentList = new Set(sortedArray);
 
-    const sortByID = ((id) => {
-        const studentArr = new Array(studentList);
-
-        studentArr.sort((a, b) => {
-            return a.ID < b.ID;
-        })
-
-        studentList = new Set();
-        studentArr.forEach((element) => {
-            studentList.add(element);
-        })
     })
 
+    const print = () => {
+        console.log("-----------------------------------------------");
+        for(const student of studentList){
+            console.log(student.ID + " " + student.group + " " + student.fullName);
+        }
+    }
+
+    const useTestValues = (() => {
+       addStudent({
+           ID: 5,
+           group: 2,
+           fullName: "Idk any others"
+       });
+       print();
+
+       removeStudentByNumber(2);
+       print();
+
+       sortByID();
+       print();
+
+       filterByGroup(4);
+       print();
+    });
+
+    useTestValues();
+    return studentList;
 }
 
 
 
 function test3(){
+    const someProducts = [
+        {
+            name: 'Laptop',
+            count: 1,
+            price: 100,
+        },
+        {
+            name: 'Tablet',
+            count: 6,
+            price: 20,
+        }
+    ];
+
     let products = new Map();
-
-    const laptop = {
-        name: 'Laptop',
-        count: 1,
-        price: 10
-    }
-
+    let lastID = 1;
 
     const addNewProduct = ((product) => {
-        products.add(product);
+        products.set(lastID++, product);
     })
 
 
@@ -112,10 +168,9 @@ function test3(){
 
 
     const deleteProductByName = ((name) => {
-        for(let i = 0; i < name.length; i++){
-            let product = products.get(i);
-            if(product.name === name){
-                products.delete();
+        for(let productID of products.keys()){
+            if(products.get(productID).name === name){
+                products.delete(productID);
             }
         }
     })
@@ -126,40 +181,52 @@ function test3(){
     })
 
 
-    const changePricePropertByID = ((id, newPrice) => {
+    const changePricePropertyByID = ((id, newPrice) => {
         products.get(id).price = newPrice;
     })
 
     const show = function(){
-        console.log(products);
+        console.log("--------------------------------------------");
+        products.forEach((product) => {
+            console.log(product.name + " " + product.count + " " + product.price);
+        })
     }
 
-    addNewProduct(laptop);
-    show;
+    someProducts.forEach((product) => {
+        addNewProduct(product);
+    });
+    show();
 
-    deleteProductByID(0);
-    show;
+    changeCountPropertyByID(2, 123)
+    changePricePropertyByID(2, 120)
+    show();
 
-    addNewProduct(laptop);
-    deleteProductByName('Laptop')
-    show;
+    deleteProductByID(1);
+    show();
 
-    changeCountPropertyByID(0, 123);
-    changePricePropertByID(0, 120)
-    show;
+    addNewProduct(
+        {
+            name: 'Piano',
+            count: 30,
+            price: 160,
+        }
+    );
+    show();
 
-    
+    deleteProductByName('Piano')
+    show();
+
 }
 
 
 function test4(){
     const wMap = new WeakMap();
 
-    const testFunction = (input => {
+    const power = (input => {
 
         if(!wMap.has(input)){
             console.log('NO CACHE')
-            wMap.set(input, input.a * input.b)
+            wMap.set(input, input.a ** input.b)
         }
 
         return wMap.get(input);
@@ -167,11 +234,11 @@ function test4(){
 
     const testObj = {a: 12,
                      b: 3,}
-    const testObj2 = {a: 1,
-                     b: 3,}
 
-    console.log(testFunction(testObj));
-    console.log(testFunction( {a:12, b:3}));
-    console.log(testFunction(testObj));
+    console.log(power(testObj));
+    console.log(power( {a:12, b:3}));
+    console.log(power(testObj));
     
 }
+
+

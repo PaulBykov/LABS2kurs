@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _7
 {
     [Serializable]
-    internal class FlatArrayExtansion2<T> : MyInterface<T>
+    internal class FlatArrayExtansion2<T> : IMyInterface<T>
     {
         public T[] array;
 

@@ -31,7 +31,6 @@ function test1(){
     alert(counter2())
     alert(counter2())
 }
-test1();
 
 function test2(){
 
@@ -46,12 +45,11 @@ function test2(){
 
     const sum1 = sum(10); // sum1 = b => c => 10 * b * c
     const sum2 = sum1(3); // sum2 = c => 10 * 3 * c
-    const result = sum2(1); // result = 10 * 3 * 0
+    const result = sum2(1); // result = 10 * 3 * 1
 
     console.log(result); // => 30
 
 }
-test2();
 
 
 function test3(){
@@ -59,11 +57,9 @@ function test3(){
 
     let x = 0
     let y = 0
-
     const step = 10;
-    const makeMove = function(){
+    const makeMove = function*(){
         const direction = prompt("Enter left, right, up or down: ")
-
 
         switch (direction){
             case "left":
@@ -79,27 +75,26 @@ function test3(){
                 y -= step;
                 break;
         }
-
-        console.log(`x: ${x} \t y: ${y}`);
-
+        yield x;
+        yield y;
+        return null;
     }
+    const move = makeMove();
 
-    if(testMode === true){
-        while(true){
-            makeMove();
-        }
-    }
-
+    console.log(move.next());
+    console.log(move.next());
 }
+test3();
 
+var testVariable = 0;
 
 function test4(){
-
-    let testVariable = 0;
 
     for(item in window){
         console.log(item);
     }
+
+    console.log("--- " + globalThis.testVariable + " ---")
 
     window.innerWidth = 1000;
     window.testVariable = 10;

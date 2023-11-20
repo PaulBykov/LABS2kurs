@@ -13,19 +13,20 @@ start()
 
 // -----------------------------------------------------------
 
-function test1(array){
-    array = array.reduce((prev, curr) => prev.concat(curr), []);
-
-    return array;
+function test1(arr){
+    return arr.reduce(function (flat, toFlatten) {
+        return flat.concat(Array.isArray(toFlatten) ? test1(toFlatten) : toFlatten);
+    }, []);
 }
 
 
 function test2(array){
-    const flatArray = array.flat();
+    const flatArray = test1(array);
 
     return flatArray.reduce((sum, curr) => {
         return sum += curr;
     })
+
 }
 
 
@@ -51,13 +52,13 @@ function test3(studentArray){
 function test4(string){
     let target1 = '';
 
-    for(symbol in string){
-        target1 += symbol.charCodeAt(0);
+    for(let char of string){
+        target1 += char.charCodeAt(0);
     }
 
     let target2 = target1.replace('7', '1');
 
-    return [target1, target2]
+    return [target1, target2, target1 - target2]
 }
 
 
@@ -76,7 +77,6 @@ function test6(stages){
 
         result += ' '.repeat(stages - i);
         result += '*'.repeat(1 + 2 * i);
-        result += ' '.repeat(stages - i);
 
         console.log(result, '\n');
     }

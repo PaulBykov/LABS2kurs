@@ -1,0 +1,13 @@
+Assembly: 11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Public constructors: Yes
+Public methods:
+youKnow
+GetType
+ToString
+Equals
+GetHashCode
+Fields:
+value
+Properties:
+
+Implemented interfaces:

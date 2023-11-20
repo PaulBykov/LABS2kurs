@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7
 {
-    interface MyInterface<T>
+    interface IMyInterface<T> where T : class
     {
         public bool printVal(T[] msg) {
             bool status = false;
