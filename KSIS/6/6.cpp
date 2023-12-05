@@ -4,7 +4,7 @@
 typedef unsigned long address;
 
 inline bool isDigit(char symbol) {
-    return '9' <= symbol <= '0';
+    return '0' <= symbol <= '9';
 }
 
 vector<address> getAddressByString(string ip) {
@@ -13,39 +13,58 @@ vector<address> getAddressByString(string ip) {
 
     string octet;
     int octetNum = 0;
-    
 
-    for (int i = 0; i < ip.size(); i++) {
-        if (ip[i] != separator) {
-            if (!isDigit(ip[i])) {
-                throw new Error::Error(4);
+        for (int i = 0; i < ip.size(); i++) {
+            if (ip[i] != separator) {
+                if (!isDigit(ip[i])) {
+                    throw Error::Error(4);
+                }
+
+                octet += ip[i];
             }
+            else {
+                IP[octetNum] = stoi(octet);
 
-            octet += ip[i];
+                octet = "";
+                octetNum++;
+            }
         }
-        else {
-            IP[octetNum] = stoi(octet);
+        IP[octetNum] = stoi(octet);
 
-            octet = "";
-            octetNum++;
-        }
-    }
-    IP[octetNum] = stoi(octet);
-
-    return IP;
+        return IP;
+    
 }
 
 void lookForErrors(vector<address> stuff) {
-    for (auto oct : stuff) {
-        if (oct > 255 || oct < 0) {
-            
+        for (auto oct : stuff) {
+            if (oct > 255 || oct < 0) {
+                 throw Error::Error(3);
+            }
         }
-    }
-
 }
 
 
+void checkForOctCount(string str) {
+    int count = 0;
+    for (auto s : str) {
+        if (s == '.') {
+            count++;
+        }
+    }
+    if (count > 3) {
+            throw Error::Error(3);
+  }
+}
 
+address calculateBroadcast(address networkID, address subnetMask) {
+    return networkID | (1);
+}
+
+void checkMask(address maskOct) {
+    if ((maskOct & (~maskOct)) != 0) {
+        throw Error::Error(4);
+    }
+}
 
 int main()
 {
@@ -60,17 +79,20 @@ int main()
     cout << "Введите маску: " << endl;
     cin >> mask;
 
-
     string NID = "";
     string HID = "";
+    string broadcast = ""; 
 
     try {
+        checkForOctCount(ip);
+        checkForOctCount(mask);
+
         auto ipOct = getAddressByString(ip);
         auto maskOct = getAddressByString(mask);
-
-        if (ipOct.size() != maskOct.size() || maskOct.size() != 4) {
-            throw ERROR;
-        }
+        
+        lookForErrors(ipOct);
+        lookForErrors(maskOct);
+        
 
         string ans;
         for (int i = 0; i < ipOct.size(); i++) {
@@ -96,6 +118,11 @@ int main()
         }
 
         cout << "NetworkID = " << NID << "\nHostID = " << HID << "\n";
+
+        cout << "broadcast = ";
+        for (int i = 0; i < 4; i++) {
+            cout << calculateBroadcast(getAddressByString(NID)[i], maskOct[i]) << " ";
+        }
     }
     catch (Error::Error e) {
         cout << "Ошибка! " << e.message << "\n";

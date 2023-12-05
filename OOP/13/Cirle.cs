@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _4
 {
-    internal class Cirle: Figure, IFiguresInterface
+    [Serializable]
+    public class Cirle: Figure, IFiguresInterface
     {
         private int radious;
 
@@ -19,6 +20,13 @@ namespace _4
         public void resize(int radious)
         {   
             this.radious = radious;
+        }
+
+        public Cirle()
+        {
+            this.Radious = 0;
+            this.X = 0;
+            this.Y = 0;
         }
 
         public Cirle(int rad)

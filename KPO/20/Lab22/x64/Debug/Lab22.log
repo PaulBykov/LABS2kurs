@@ -1,0 +1,34 @@
+﻿  Error.cpp
+  FST.cpp
+D:\LABS2\KPO\20\Lab22\FST.cpp(62,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+  GRB.cpp
+  In.cpp
+  IT.cpp
+D:\LABS2\KPO\20\Lab22\IT.cpp(79,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\IT.cpp(99,32): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+  Lab22.cpp
+D:\LABS2\KPO\20\Lab22\Lab22.cpp(35,28): warning C4101: lt_position: неиспользованная локальная переменная
+  LexAnalysis.cpp
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(32,13): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(47,15): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(59,15): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(62,14): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(78,14): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(80,17): warning C4305: =: усечение из "int" в "char"
+D:\LABS2\KPO\20\Lab22\LexAnalysis.cpp(80,17): warning C4309: =: усечение константного значения
+  Log.cpp
+  LT.cpp
+  MFST.cpp
+D:\LABS2\KPO\20\Lab22\MFST.cpp(236,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Out.cpp
+  Parm.cpp
+  PolishNotation.cpp
+D:\LABS2\KPO\20\Lab22\PolishNotation.cpp(74,21): warning C4129: @: неизвестная escape-последовательность
+  Создание кода...
+D:\LABS2\KPO\20\Lab22\PolishNotation.cpp(40): warning C4172: возвращение адреса локальной или временной переменной : temp
+D:\LABS2\KPO\20\Lab22\PolishNotation.cpp(28): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\20\Lab22\PolishNotation.cpp(16): warning C4715: PolishNotation::Stack::push: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\20\Lab22\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\20\Lab22\IT.cpp(160): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+D:\LABS2\KPO\20\Lab22\IT.cpp(192): warning C4172: возвращение адреса локальной или временной переменной : buffer
+  Lab22.vcxproj -> D:\LABS2\KPO\20\x64\Debug\Lab22.exe

@@ -2,6 +2,8 @@ function task1(){
     console.log("\t task1 \t")
     const numbers = [1, 23, 4, 12, 665]
     const [y] = numbers;
+
+    console.log(y);
 }
 
 
@@ -17,6 +19,8 @@ function task2(){
         admin: true,
         ...user
     }
+
+    console.log(admin);
 }
 
 
@@ -40,31 +44,40 @@ function task3(){
                 ],
                 messages: [
                     {id: 1, name: 'hi'},
-                    {id: 1, name: 'hi hi'},
-                    {id: 1, name: 'hi hi hi'},
+                    {id: 2, name: 'hi hi'},
+                    {id: 3, name: 'hi hi hi'},
                 ],
             },
             sidebar: [],
         },
     }
 
-    const postList = store.state.profilePage.posts;
+    const {
+      state: {
+        profilePage: { posts },
+      },
+    } = store;
 
-    postList.forEach((post) => {
+    posts.forEach((post) => {
         console.log(post.likesCount);
     })
 
-    const dialogPage = store.state.dialogsPage;
-    const dialogs = dialogPage.dialogs;
+    const {
+        state: {
+            dialogsPage: { dialogs, messages },
+        },
+    } = store;
 
     const onlyEvenIDS = dialogs.filter((elem) => {
-        return elem.id % 2;
+        return !(elem.id % 2);
     });
 
-    const messageList = dialogPage.messages;
-    messageList.map((message) => {
+    messages.map((message) => {
         message.message = "Hello user";
     })
+
+    console.log(onlyEvenIDS);
+    console.log(messages);
 }
 
 

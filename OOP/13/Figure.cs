@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace _4
 {
     [Serializable]
-    abstract class Figure:IFiguresInterface
+    abstract public class Figure:IFiguresInterface
     {
+        [NonSerialized]
         private int x;
         private int y;
 

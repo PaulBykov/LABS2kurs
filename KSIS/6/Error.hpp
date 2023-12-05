@@ -3,19 +3,18 @@
 
 
 namespace Error {
-	struct Error : exception {
+	struct Error {
 		unsigned short code;
 		string message;
 
 		map<int, string> ErrorCodes = {
-		{1, "Недопустимое значение октета"},
-		{2, "Неизвестный символ"},
-		{3, "Неверное количество октетов"},
-		{4, "Недопустимая маска"}
-
+			{1, "Недопустимое значение октета"},
+			{2, "Неизвестный символ"},
+			{3, "Неверное количество октетов"},
+			{4, "Недопустимая маска"}
 		};
 
-		Error(unsigned short code) {
+		Error(unsigned short code = 2) {
 			this->code = code;
 			this->message = ErrorCodes[code];
 		}
