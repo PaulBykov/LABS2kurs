@@ -1,5 +1,0 @@
-﻿  Assembling lab1.asm...
-lab1.asm(1): error A2044: invalid character in file
-lab1.asm(32): error A2006: undefined symbol : mass
-lab1.asm(33): error A2006: undefined symbol : mass
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Sg /Zi /Fo"Debug\lab1.obj" /Fl"Debug\\" /W3 /errorReport:prompt  /Talab1.asm" с кодом "1".
