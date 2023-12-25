@@ -1,27 +1,54 @@
 
-class Shoe{
-    constructor(id, size, color, worth, discount = 0){
-        this.id = id;
-        this.size = size;
-        this.color = color;
-        this.worth = worth;
-        this.discount = discount;
-        this.price = worth - worth * discount / 100;
+function getAllShoes(shoesObj) {
+    let allShoes = [];
+
+    for (const shoeType in shoesObj) {
+        const shoesOfType = shoesObj[shoeType];
+        for (const shoeKey in shoesOfType) {
+            allShoes.push(shoesOfType[shoeKey]);
+        }
     }
 
-    set worth(value){
-        this.worth = value;
-        this.price = this.worth - this.worth * this.discount / 100;
-    }
+    return allShoes;
+}
+
+function Shoe(id, size, color, worth, discount = 0){
+    this.id = id;
+    this.size = size;
+    this.color = color;
+    this.discount = discount;
+    this.worth = worth;
+
+    Object.defineProperty(this, 'price', {
+        enumerable: true,
+        configurable: false,
+
+        get: function() {
+            return this.worth - (this.worth * (this.discount / 100));
+        },
+
+        set: function (value){
+            this.price = value;
+        }
+    });
+
+    Object.defineProperty(this, "id",
+        {
+            writable:false,
+            enumerable: true,
+            configurable: false
+        })
+
 }
 
 
 function task1(){
+
     const products = {
         shoes: {
             sneakers: {
                 shoe1: new Shoe(1, 36, "black", 100),
-                shoe2: new Shoe(2, 42, "white", 140),
+                shoe2: new Shoe(2, 42, "white", 140, 25),
                 shoe3: new Shoe(3, 44, "white", 80),
                 shoe4: new Shoe(4, 41, "white", 140)
             },
@@ -50,17 +77,19 @@ function task1(){
         }
     }
 
+    const Shoes = getAllShoes(products.shoes);
+
     const filterByPriceDist = (lowerPrice, higherPrice) => {
-        const result = products.shoes.filter(
+        const result = Shoes.filter(
             (product) =>
-                product.price > lowerPrice
-                && product.price < higherPrice
+                product.price >= lowerPrice
+                && product.price <= higherPrice
         )
 
         console.log(result);
     }
     const filterByColor = (color) => {
-        const result = products.shoes.filter(
+        const result = Shoes.filter(
             (product) =>
                 product.color === color
         )
@@ -68,7 +97,7 @@ function task1(){
         console.log(result);
     }
     const filterBySize = (size) => {
-        const result = products.shoes.filter(
+        const result = Shoes.filter(
             (product) =>
                 product.size === size
         )
@@ -79,7 +108,11 @@ function task1(){
 
     const newProducts = JSON.parse(JSON.stringify(products));
 
+    filterByColor("white")
 
+    console.log("worth: " + products.shoes.sneakers.shoe2.worth);
+    console.log("discount: " + products.shoes.sneakers.shoe2.discount + "%");
+    console.log("price: " + products.shoes.sneakers.shoe2.price);
 
 }
 

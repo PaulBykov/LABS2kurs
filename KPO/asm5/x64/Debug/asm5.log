@@ -1,0 +1,14 @@
+﻿  Assembling main.asm...
+main.asm(1): error A2044: invalid character in file
+main.asm(2): error A2008: syntax error : .
+main.asm(14): error A2008: syntax error : .
+main.asm(29): error A2008: syntax error : SetConsoleTitleA
+main.asm(36): error A2070: invalid instruction operands
+main.asm(42): error A2070: invalid instruction operands
+main.asm(48): error A2070: invalid instruction operands
+main.asm(49): error A2070: invalid instruction operands
+main.asm(52): error A2008: syntax error : WriteConsoleA
+main.asm(53): error A2008: syntax error : WriteConsoleA
+main.asm(60): error A2008: syntax error : eax
+main.asm(84): fatal error A1010: unmatched block nesting : tochar
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\main.obj" /W3 /errorReport:prompt  /Tamain.asm" с кодом "1".

@@ -1,8 +1,8 @@
-Microsoft (R) Macro Assembler Version 14.37.32824.0	    11/14/23 16:43:06
+Microsoft (R) Macro Assembler Version 14.37.32824.0	    12/11/23 23:07:35
 lab1.asm						     Page 1 - 1
 
 
-				﻿
+				﻿.586P
 lab1.asm(1) : error A2044:invalid character in file
 				.model flat, stdcall
 				includelib kernel32.lib
@@ -56,7 +56,7 @@ lab1.asm(33) : error A2006:undefined symbol : mass
 				;----------------------------------
 
 				end main
-Microsoft (R) Macro Assembler Version 14.37.32824.0	    11/14/23 16:43:06
+Microsoft (R) Macro Assembler Version 14.37.32824.0	    12/11/23 23:07:35
 lab1.asm						     Symbols 2 - 1
 
 

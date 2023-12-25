@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" modified="2023-12-12T21:44:53.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iMKHGmYyEK1BfIG79NMt" version="22.1.8" type="device">
+  <diagram name="Страница — 1" id="MUqz6Mb1AdiyfTJDXKPv">
+    <mxGraphModel dx="1235" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-1" target="oLaSbIWTb4TVBMui4VFe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="229" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-1" target="oLaSbIWTb4TVBMui4VFe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-1" target="oLaSbIWTb4TVBMui4VFe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-1" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-2" target="oLaSbIWTb4TVBMui4VFe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-2" value="Администратор&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="210" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-4" target="oLaSbIWTb4TVBMui4VFe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-4" value="Пополнить счет&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-5" target="oLaSbIWTb4TVBMui4VFe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-5" value="Заблокировать счет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oLaSbIWTb4TVBMui4VFe-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-6" value="Сделать платёж" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-11" target="oLaSbIWTb4TVBMui4VFe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-11" value="разблокировать &lt;br&gt;счет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-13" value="СЧЁТ" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="379" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-20" value="Выбрать целевой&lt;br&gt;счёт" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-22" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-6" target="oLaSbIWTb4TVBMui4VFe-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="89" y="390" as="sourcePoint" />
+            <mxPoint x="249" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-23" value="погасить комиссию" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-24" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-6" target="oLaSbIWTb4TVBMui4VFe-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="429" y="130" as="sourcePoint" />
+            <mxPoint x="479" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="358" />
+              <mxPoint x="170" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-25" value="Ввести данные счёта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-4" target="oLaSbIWTb4TVBMui4VFe-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="430" as="sourcePoint" />
+            <mxPoint x="620" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-36" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-5" target="oLaSbIWTb4TVBMui4VFe-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="430" y="510" as="sourcePoint" />
+            <mxPoint x="590" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLaSbIWTb4TVBMui4VFe-38" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLaSbIWTb4TVBMui4VFe-6" target="oLaSbIWTb4TVBMui4VFe-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="218.5" y="400" as="sourcePoint" />
+            <mxPoint x="378.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

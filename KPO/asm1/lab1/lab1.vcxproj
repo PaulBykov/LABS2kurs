@@ -84,6 +84,7 @@
     </Link>
     <MASM>
       <AssembledCodeListingFile>$(IntDir)</AssembledCodeListingFile>
+      <EnableAssemblyGeneratedCodeListing>true</EnableAssemblyGeneratedCodeListing>
     </MASM>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
