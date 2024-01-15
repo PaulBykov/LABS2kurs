@@ -31,6 +31,8 @@ namespace _17
         };
 
 
+        public static List<CreditCard> creditCards => new();
+
         public static User? getUserByUsername(string username)
         {
             UsersObjects.TryGetValue(username, out var user);

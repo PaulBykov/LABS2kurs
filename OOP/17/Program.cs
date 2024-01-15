@@ -6,6 +6,22 @@
         static void Main(string[] args)
         {
             Session GlobalSession = Session.GetInstance();
+            UsersDatabase db = new UsersDatabase();
+
+            User test = new User("Alex", "321");
+            User test2 = (User)test.Clone();
+
+            ConcreteSubject subject = new ConcreteSubject();
+            ConcreteObserver observer1 = new ConcreteObserver();
+            ConcreteObserver observer2 = new ConcreteObserver();
+
+            // Присоединение наблюдателей к субъекту
+            subject.Attach(observer1);
+            subject.Attach(observer2);
+
+            // Изменение состояния субъекта и уведомление наблюдателей
+            subject.ChangeMessage("Новое сообщение для наблюдателей!");
+
 
 
             try

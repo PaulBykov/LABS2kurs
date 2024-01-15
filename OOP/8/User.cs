@@ -1,36 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+
+
+
+
 
 namespace _8
 {
     public class User
     {
-        public event Action<double> MoveEvent;
-        public event Action<double> CompressEvent;
+        private int coord;
+        private int size;
 
-        public double Coords { get; private set; }
-
-        public User(double initialCoords)
+        public delegate void MovedHandler(int x);
+        public event MovedHandler Move;
+        private protected void changed(int x)
         {
-            Coords = initialCoords;
+            Console.WriteLine(x);
         }
 
-        public void Move(double offset)
+
+        public delegate void CompressedHandler(int x);
+        public event CompressedHandler Compress;
+
+
+        public void Forward(int step)
         {
-            Coords += offset;
-            MoveEvent?.Invoke(Coords);
+            coord += step;
+            Move?.Invoke(coord);
+        }
+        public void Backwards(int step)
+        {
+            coord -= step;
+            Move?.Invoke(coord);
         }
 
-        public void Compress(double ratio)
+        public void Squeze(int Coefficient)
         {
-            Coords *= ratio;
-            CompressEvent?.Invoke(Coords);
+            Size *= Coefficient;
+            Compress?.Invoke(Size);
+        }
+
+        public int Coord { get => coord; private set => coord = value; }
+        public int Size { get => size; private set => size = value; }
+
+        public User()
+        {
+            this.size = 1;
+            this.coord = 0;
         }
     }
-
-
 }

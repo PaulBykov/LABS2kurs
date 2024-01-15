@@ -15,7 +15,7 @@ namespace _17
         public LoginAccount(string username, string password)
         {
             this.username = username;
-            this.password = password;
+            this.Password = password;
 
             //ILoginAccountFactory userFactory = new UserFactory();
             //AccountBuilder accountBuilder = new AccountBuilder(userFactory);
@@ -25,6 +25,8 @@ namespace _17
 
         public string Username => username;
 
+        public string Password { get => password; set => password = value; }
+
         public override bool Equals(object? obj)
         {
             return obj is LoginAccount account &&
@@ -33,12 +35,12 @@ namespace _17
 
         public bool checkPassword(string pass)
         {
-            return this.password.GetHashCode() == pass.GetHashCode();
+            return this.Password.GetHashCode() == pass.GetHashCode();
         }
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(password);
+            return HashCode.Combine(Password);
         }
 
         public virtual void ShowControlPanel()

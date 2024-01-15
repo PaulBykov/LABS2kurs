@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace _17
 {
-    public class User : LoginAccount
+    public class User : LoginAccount, ICloneable
     {
         public List<BankAccount> accounts;
 
@@ -49,6 +50,17 @@ namespace _17
                     break;
             }
 
+        }
+
+
+        public object Clone()
+        {
+            return new User(Username, Password); // Создание нового экземпляра на основе текущего
+        }
+
+        public override string ToString()
+        {
+            return $"Name: {Username}, Pass: {Password}";
         }
     }
 }

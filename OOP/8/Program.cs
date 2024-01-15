@@ -1,26 +1,38 @@
 ﻿namespace _8
 {
+
+
     public class Program
     {
+        private static void Display(int x)
+        {
+            Console.WriteLine($"Новое значение coord = {x}");
+        }
+
+        private static void Output(int x)
+        {
+            Console.WriteLine($"Новое значение size = {x}");
+        }
+
         public static void Main(string[] args)
         {
-            var user1 = new User(0);
-            user1.MoveEvent += (coords) => Console.WriteLine($"User1 moved to coords: {coords}");
-            user1.CompressEvent += (coords) => Console.WriteLine($"User1 compressed to coords: {coords}");
+            User user1 = new User();
+            User user2 = new User();
+            User user3 = new User();
 
-            var user2 = new User(10);
-            user2.MoveEvent += (coords) => Console.WriteLine($"User2 moved to coords: {coords}");
+            user1.Move += Display;
+            user1.Forward(10);
+            user1.Backwards(2);
 
 
-            var user3 = new User(1000);
+            user2.Move += Display;
+            user2.Compress += Output;
+            user2.Forward(30);
+            user2.Squeze(2);
+            user2.Squeze(5);
 
-            user1.Move(10);
-            user1.Move(10);
-            user1.Compress(0.42);
 
-            user2.Move(20);
-
-            Console.Read();
+            user3.Squeze(2);
         }
     }
 }

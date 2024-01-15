@@ -51,9 +51,6 @@ namespace _17
             return false;
         }
 
-
-
-
         public static bool ShowLoginMenu()
         {
             Console.Write("login: ");

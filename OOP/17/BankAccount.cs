@@ -16,6 +16,7 @@ namespace _17
         {
             var rand = new Random();
             this.id = rand.Next(1000).GetHashCode();
+            creditCards.Add(new CreditCard(this));
         }
         public int Id => id;
     }
