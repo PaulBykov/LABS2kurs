@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"by.belstu.it.Bykov"},{"l":"by.belstu.it.Bykov.basejava"}];updateSearchResults();

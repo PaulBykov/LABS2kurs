@@ -1,9 +1,0 @@
-
-.field{
-    display: grid;
-    grid-template-columns: repeat(9, auto);
-
-    gap: 0;
-    justify-content: center;
-    align-items: center;
-}

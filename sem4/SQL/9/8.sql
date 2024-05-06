@@ -1,4 +1,0 @@
-DECLARE @x int = 1;
-PRINT @x;
-RETURN
-PRINT @x+2
