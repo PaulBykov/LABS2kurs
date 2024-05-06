@@ -1,0 +1,51 @@
+
+#main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: darkblue;
+    text-decoration: none;
+
+    margin-right: 220px;
+
+    align-self: flex-start;
+}
+
+
+.role{
+    font-size: 24px;
+    font-weight: lighter;
+
+    margin-bottom: 50px;
+}
+
+#time-status{
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-info{
+    margin-top: 100px;
+}

@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 150px;
+    gap:30px;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.save-button{
+    margin: 20px 0 0 30px;
+}
+
+.result{
+    display: block;
+
+    color: #61b5ea;
+
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+
+    border-bottom: 1px solid black;
+}
+
+input{
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+}
+
+#second{
+    margin-left: -5px;
+}
+
+#third{
+    margin-left: 10px;
+}
+
+#settings-form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+#field{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+
+    height: 450px;
+    width: 100vw;
+
+    background-color: #5c6d77;
+}
+
+#refresh-button{
+    height: 20px;
+    width: 80px;
+    align-self: center;
+
+    margin-top: 20px;
+    margin-left: 50vw;
+}
+
+.cone{
+    position: relative;
+    z-index: 1;
+
+    height: 350px;
+    width: 250px;
+}
+
+.ball-container{
+    display: none;
+
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    z-index: 0;
+    bottom: 60px;
+
+    width: 100%;
+}
+
+.ball{
+    height: 100px;
+    width: 100px;
+}
+
+.figure{
+    position: relative;
+}

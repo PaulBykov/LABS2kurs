@@ -1,0 +1,141 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_4</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>assets\images\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resource1.Designer.cs" />
+  	<None Include="assets\images\products\18.jpg" />
+</ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Resource1.resx" />
+  	<None Include="assets\images\products\18.jpg" />
+</ItemGroup>
+
+  <ItemGroup>
+    <None Remove="assets\AppStarting.ani" />
+    <None Remove="assets\busy.ani" />
+    <None Remove="assets\images\bird.png" />
+    <None Remove="assets\images\products\1.jpg" />
+    <None Remove="assets\images\products\1.png" />
+    <None Remove="assets\images\products\10.jpg" />
+    <None Remove="assets\images\products\11.jpg" />
+    <None Remove="assets\images\products\12.jpg" />
+    <None Remove="assets\images\products\13.jpg" />
+    <None Remove="assets\images\products\14.jpg" />
+    <None Remove="assets\images\products\15.jpg" />
+    <None Remove="assets\images\products\16.jpg" />
+    <None Remove="assets\images\products\17.jpg" />
+    <None Remove="assets\images\products\2.jpg" />
+    <None Remove="assets\images\products\2.png" />
+    <None Remove="assets\images\products\3.jpg" />
+    <None Remove="assets\images\products\3.png" />
+    <None Remove="assets\images\products\4.jpg" />
+    <None Remove="assets\images\products\4.png" />
+    <None Remove="assets\images\products\5.jpg" />
+    <None Remove="assets\images\products\5.png" />
+    <None Remove="assets\images\products\6.jpg" />
+    <None Remove="assets\images\products\7.jpg" />
+    <None Remove="assets\images\products\8.jpg" />
+    <None Remove="assets\images\products\9.jpg" />
+    <None Remove="assets\images\select.jpg" />
+</ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\images\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\AppStarting.ani">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\busy.ani">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\17.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
+</ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\images\bird.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\products\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\select.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+</ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="assets\data\" />
+</ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  	<Resource Include="assets\images\products\18.jpg">
+  	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  	</Resource>
+</ItemGroup>
+
+</Project>

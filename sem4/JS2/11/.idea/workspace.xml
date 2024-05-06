@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c107008-86dc-4928-878e-41a5dedd62a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JAVA/_7/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/1/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/1/1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/1/1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/1/1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/10/10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/10/10.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/10/10.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/10/10.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/10/AntColony.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/3.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/3.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/3.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/3/Проверка моей матрицы смежности.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/4/4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/4/4.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/4/4.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/4/4.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/5/5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/5/5.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/5/5.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/5/5.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/6/6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/6/6.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/6/6.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/6/6.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/6/6.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/7/7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/7/7.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/7/7.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/7/7.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/9/9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/9/9.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/9/9.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/9/9.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/ConsoleApplication1/ConsoleApplication1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/ConsoleApplication1/ConsoleApplication1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/ConsoleApplication1/ConsoleApplication1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASD/ConsoleApplication1/ConsoleApplication1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/1/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/.idea/2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/2/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/.idea/3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/3/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/.idea/4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/4/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/.idea/5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/5/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/.idea/6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/6/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/.idea/7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/7/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/.idea/8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/8/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/16.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/16.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/16.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/16.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/FST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/FST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/16/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/17_Разработка лексического распознавателя (часть 1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/17_Разработка лексического распознавателя (часть 2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/17_Разработка лексического распознавателя (часть 3).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/FST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/FST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Graphs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/IT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/IT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/In.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/In.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/LT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/LT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Lab17.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Lab17.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Lab20.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Lab20.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/LexAnalysis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/LexAnalysis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Out.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Out.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Parm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/Parm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/TableOfIdentificators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/TableOfLexems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/in.out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/17/Lab17/Lab17/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/18.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/18_Разработка_синтаксического_анализатора.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/FST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/FST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/GRB.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/GRB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Graphs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/IT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/IT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/In.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/In.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/LT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/LT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Lab18.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Lab21.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Lab21.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/LexAnalysis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/LexAnalysis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/MFST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/MFST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Out.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Out.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Parm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Parm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/Rules.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/TableOfIdentificators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/TableOfLexems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/in.txt.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/18/Lab21/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/22_Преобразование выражений.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/FST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/FST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/GRB.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/GRB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Graphs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/IT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/IT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/In.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/In.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/LT.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/LT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Lab22.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Lab22.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Lab22.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/LexAnalysis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/LexAnalysis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/MFST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/MFST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Out.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Out.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Parm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Parm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/PolishNotation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/PolishNotation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/Rules.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/TableOfIdentificators.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/TableOfLexems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/TableOfLexemsPN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/in.txt.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/20/Lab22/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm1/lab1/lab1.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm1/lab1/lab1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm1/lab1/lab1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm1/lab1/lab1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm2/asm2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm2/asm2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm2/asm2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm2/main.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4/asm4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4/asm4.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4/asm4.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4/asm4.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4/serialized_data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4_2/asm4_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4_2/asm4_2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4_2/asm4_2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm4_2/deserialized_data.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm5.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm5.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm5.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_c/asm_5_c.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_c/asm_5_c.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_c/asm_5_c.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_d/asm_5_d.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_d/asm_5_d.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_d/asm_5_d.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_e/asm_5_e.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_e/asm_5_e.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/asm_5_e/main.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm5/main.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5/asm_5.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5/asm_5.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5/main.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5_lib/asm_5_lib.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5_lib/asm_5_lib.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/asm_5_lib/main.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_LAB14.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/In.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/In.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Out.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Parm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Parm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/SE_Lab14.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/SE_Lab15.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/SE_Lab15.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/Test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/out.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KPO/translator/SE_Lab15/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/1/Task1.net" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/1/Task2.net" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/1/Task3.net" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/1/Task4.net" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/6/6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/6/6.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/6/6.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/6/6.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/6/Error.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../KSIS/9 (top secret)/Быков 6-2 NextCloud.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/0/0.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/0/0.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/0/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/1/Lab1/Lab1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/1/Lab1/Lab1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/1/Lab1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/10/10.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/10/10.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/10/Airline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/10/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/10/partialAirline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/11.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/11.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/Airline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/Book.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/Lab11.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/11/Reflector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/12.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/12.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPADirInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPADiskInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPAFileInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPAFileManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPALog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/BPALog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/12/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/13.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/13.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/Cirle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/Figure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/FiguresInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/Rectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/13/Serializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/14/14.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/14/14.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/14/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/15/15.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/15/15.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/15/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/15/Resheto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/16/диаграмма вариантов.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/16/диаграмма деятельности (1).drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/16/диаграмма классов.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/16/диаграмма последовательности.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/17.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/17.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/AccountBuider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/AccountFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/AccountList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Adapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Admin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Auth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/BankAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Command.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/ControlPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/CreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Decorator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/IAccountListConfigurable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/IDataController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/ILoginAccountFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/LoginAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Observer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Prototype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Session.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/Strategy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/17/UsersDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/2/2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/2/2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/2/Airline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/2/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/2/partialAirline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/3/3.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/3/3.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/3/FlatArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/3/FlatArrayExtansion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/3/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/4.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/4.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/Cirle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/Figure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/FiguresInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/4/Rectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/5.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/5.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/Cirle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/Figure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/FigureControle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/FigurePart2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/FiguresInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/Rectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/5/UI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6/6.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6/NameException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6/NumberOfPagesException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6/PriceException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/6/6/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/7.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/AbsctractInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/CollectionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/FlatArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/FlatArrayExtansion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/FlatArrayExtansion2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/7/7/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/8/8.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/8/8.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/8/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/8/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/9/9.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/9/9.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/9/Book.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/9/BookCollection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/9/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/1/F(x).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/1/Lab1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/1/_f(x).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/2/Lab2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/3/Критерий.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ter-ver/3/ЛР3 Критерии значимости.xlsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2f90KJb3NGXOo3Ite40Lwn5ezJU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/LABS2/sem4/JS2/11-13/public/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.25280327&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\LABS2\\sem4\\JS2\\11\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LABS2\sem4\JS2\11-13\public\assets" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\shared\assets" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\shared" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\feateures\filter" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\public" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\shared\assets" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\feateures\search" />
+      <recent name="D:\LABS2\sem4\JS2\11-13\src\shared" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c107008-86dc-4928-878e-41a5dedd62a3" name="Changes" comment="" />
+      <created>1713197920247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713197920247</updated>
+      <workItem from="1713197921259" duration="1560000" />
+      <workItem from="1713209466446" duration="597000" />
+      <workItem from="1713210071397" duration="10123000" />
+      <workItem from="1713262861485" duration="1663000" />
+      <workItem from="1713267501271" duration="416000" />
+      <workItem from="1713269396200" duration="13177000" />
+      <workItem from="1713291463113" duration="4299000" />
+      <workItem from="1713872458418" duration="55000" />
+      <workItem from="1713874181361" duration="3032000" />
+      <workItem from="1713877390581" duration="584000" />
+      <workItem from="1713878017408" duration="12000" />
+      <workItem from="1714144946241" duration="707000" />
+      <workItem from="1714472638819" duration="1108000" />
+      <workItem from="1714476909603" duration="924000" />
+      <workItem from="1714483420701" duration="54000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

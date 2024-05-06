@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client>
+        <id>1</id>
+        <name>John Doe</name>
+        <accounts>
+            <account>
+                <id>101</id>
+                <balance>5000.0</balance>
+                <cards>
+                    <card>
+                        <id>13</id>
+                        <isOnline>true</isOnline>
+                        <type>debet</type>
+                        <number>1234 5678 9012 3456</number>
+                    </card>
+                </cards>
+            </account>
+        </accounts>
+    </client>
+
+    <client>
+        <id>2</id>
+        <name>Jack One</name>
+        <accounts>
+            <account>
+                <id>120</id>
+                <balance>5500.0</balance>
+                <cards>
+                    <card>
+                        <id>33</id>
+                        <isOnline>true</isOnline>
+                        <type>debet</type>
+                        <number>2222 3333 4444 5555</number>
+                    </card>
+                </cards>
+            </account>
+        </accounts>
+    </client>
+
+</clients>

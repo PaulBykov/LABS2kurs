@@ -1,0 +1,1 @@
+{"clientId":1,"name":"Paul","accounts":[{"accId":1,"balance":1000.0,"cards":[{"cardId":1,"isOnline":true,"type":"debet","number":"4250 0511 2130 4212"},{"cardId":3,"isOnline":true,"type":"credit","number":"1111 1111 1111 1111"}]}],"id":0}

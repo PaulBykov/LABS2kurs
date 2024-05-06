@@ -1,0 +1,17 @@
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+
+    margin-top: 50px;
+}
+
+
+.not-found{
+    text-align: center;
+    align-self: center;
+
+    margin-top: 50px;
+}

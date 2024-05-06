@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Db>
+    <Sneaker>
+      <Id>1</Id>
+      <Model>Air force 1</Model>
+      <Brand>Nike</Brand>
+      <Size>40</Size>
+      <Descripcion>Some info1</Descripcion>
+      <Color>белый</Color>
+      <Price>229</Price>
+      <Image>../../../assets/images/products/1.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>2</Id>
+      <Model>Jordan 4 Retro</Model>
+      <Brand>Nike</Brand>
+      <Size>42</Size>
+      <Descripcion>Some info2</Descripcion>
+      <Color>синий</Color>
+      <Price>279</Price>
+      <Image>../../../assets/images/products/2.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>3</Id>
+      <Model>Rebound v6</Model>
+      <Brand>Puma</Brand>
+      <Size>44</Size>
+      <Descripcion>Some info3</Descripcion>
+      <Color>черный</Color>
+      <Price>359</Price>
+      <Image>../../../assets/images/products/3.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>4</Id>
+      <Model>YEEZY 500</Model>
+      <Brand>Adidas</Brand>
+      <Size>46</Size>
+      <Descripcion>Some info4</Descripcion>
+      <Color>серый</Color>
+      <Price>139</Price>
+      <Image>../../../assets/images/products/4.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>5</Id>
+      <Model>Air max 95</Model>
+      <Brand>Nike</Brand>
+      <Size>42</Size>
+      <Descripcion>Some info5</Descripcion>
+      <Color>черный</Color>
+      <Price>379</Price>
+      <Image>../../../assets/images/products/5.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>6</Id>
+      <Model>Flexagon enegry TR 4</Model>
+      <Brand>Reebok</Brand>
+      <Size>41</Size>
+      <Descripcion>Some info6</Descripcion>
+      <Color>белый</Color>
+      <Price>329</Price>
+      <Image>../../../assets/images/products/6.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>7</Id>
+      <Model>Caven 2.0</Model>
+      <Brand>Puma</Brand>
+      <Size>42</Size>
+      <Descripcion>Some info7</Descripcion>
+      <Color>черный</Color>
+      <Price>199</Price>
+      <Image>../../../assets/images/products/7.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>8</Id>
+      <Model>Ultra Boost</Model>
+      <Brand>Adidas</Brand>
+      <Size>43</Size>
+      <Descripcion>Some info8</Descripcion>
+      <Color>красный</Color>
+      <Price>199</Price>
+      <Image>../../../assets/images/products/8.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>9</Id>
+      <Model>Nano X1</Model>
+      <Brand>Reebok</Brand>
+      <Size>44</Size>
+      <Descripcion>Some info9</Descripcion>
+      <Color>серый</Color>
+      <Price>299</Price>
+      <Image>../../../assets/images/products/9.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>10</Id>
+      <Model>Air Zoom Pegasus 38</Model>
+      <Brand>Nike</Brand>
+      <Size>45</Size>
+      <Descripcion>Some info10</Descripcion>
+      <Color>серый</Color>
+      <Price>589</Price>
+      <Image>../../../assets/images/products/10.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>11</Id>
+      <Model>Ignite NXT</Model>
+      <Brand>Puma</Brand>
+      <Size>46</Size>
+      <Descripcion>Some info11</Descripcion>
+      <Color>желтый</Color>
+      <Price>159</Price>
+      <Image>../../../assets/images/products/11.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>12</Id>
+      <Model>NMD R1</Model>
+      <Brand>Adidas</Brand>
+      <Size>40</Size>
+      <Descripcion>Some info12</Descripcion>
+      <Color>белый</Color>
+      <Price>229</Price>
+      <Image>../../../assets/images/products/12.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>13</Id>
+      <Model>Zig Kinetica II</Model>
+      <Brand>Reebok</Brand>
+      <Size>41</Size>
+      <Descripcion>Some info13</Descripcion>
+      <Color>белый</Color>
+      <Price>199</Price>
+      <Image>../../../assets/images/products/13.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>14</Id>
+      <Model>Metcon 6</Model>
+      <Brand>Nike</Brand>
+      <Size>42</Size>
+      <Descripcion>Some info14</Descripcion>
+      <Color>желтый</Color>
+      <Price>329</Price>
+      <Image>../../../assets/images/products/14.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>15</Id>
+      <Model>RS-X3</Model>
+      <Brand>Puma</Brand>
+      <Size>43</Size>
+      <Descripcion>Some info15</Descripcion>
+      <Color>серый</Color>
+      <Price>299</Price>
+      <Image>../../../assets/images/products/15.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>16</Id>
+      <Model>Stan Smith</Model>
+      <Brand>Adidas</Brand>
+      <Size>44</Size>
+      <Descripcion>Some info16</Descripcion>
+      <Color>белый</Color>
+      <Price>439</Price>
+      <Image>../../../assets/images/products/16.jpg</Image>
+    </Sneaker>
+    <Sneaker>
+      <Id>17</Id>
+      <Model>Club C 85</Model>
+      <Brand>Reebok</Brand>
+      <Size>45</Size>
+      <Descripcion>Some info17</Descripcion>
+      <Color>белый</Color>
+      <Price>349</Price>
+      <Image>../../../assets/images/products/17.jpg</Image>
+    </Sneaker>
+  </Db>
+</Products> <Id>18</Id>
+      <Model>123</Model>
+      <Brand>Nike</Brand>
+      <Size>44</Size>
+      <Descripcion>123</Descripcion>
+      <Color>желтый</Color>
+      <Price>123</Price>
+      <Image>file:///C:/Users/rurumi/Downloads/HD-wallpaper-red-eclipse-digital-art (1).jpg</Image>
+    </Sneaker>
+  </Db>
+</Products>
