@@ -9,7 +9,6 @@ interface IResponse {
 }
 
 export async function getMovies(title: string, type: MovieType): Promise<IMovie[]> {
-
     let queryString = `${API_URL}apikey=${API_KEY}&s=${title}`;
 
     if(type !== "any"){

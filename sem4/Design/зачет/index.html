@@ -1,0 +1,123 @@
+
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input id="burger-menu" type="checkbox"/>
+
+        <header>
+            <h1 class="club-name"> CLUB NAME </h1>
+
+            <div class="combobox-container">
+                <label class="geo-icon" for="geo-select">
+                </label>
+                <select id="geo-select">
+                    <option> Клуб #1 </option>
+                </select>
+
+                <label class="user-icon" for="user-select">
+                </label>
+                <select id="user-select">
+                    123
+                </select>
+            </div>
+        </header>
+
+        <main>
+            <aside class="aside">
+                <nav class="nav">
+                    <button>
+                        <img alt="house" src="./icons/house_mini.png"/>
+                        <span>Главная</span>
+                    </button>
+                    <button>
+                        <img alt="house" src="./icons/computer_mini.png"/>
+                        <span>Компьютеры</span>
+                    </button>
+                    <button>
+                        <img alt="house" src="./icons/rates_mini.png"/>
+                        <span>Тарифы</span>
+                    </button>
+                    <button>
+                        <img alt="house" src="./icons/team_mini.png"/>
+                        <span>Сотрудники</span>
+                    </button>
+                    <button>
+                        <img alt="house" src="./icons/logs_mini.png"/>
+                        <span>Логи</span>
+                    </button>
+                </nav>
+
+                <button class="settings">
+                    <img alt="house" src="./icons/settings_mini.png"/>
+                    <span>Настройки</span>
+                </button>
+            </aside>
+
+            <div class="main-scene">
+                <button class="add-button"> + &nbsp;Добавить </button>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>ФИО</th>
+                            <th>Клубы</th>
+                            <th>Операции</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Быков Павел Алексеевич</td>
+                            <td>Клуб 1</td>
+                            <td>
+                                <button class="edit-button">
+                                    <img src="icons/pencil_mini.png" alt="pencil"/>
+                                </button>
+                                <button class="delete-button">
+                                    <img src="icons/trashbin_mini.png" alt="trash"/>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ивашкевич Александр Олегович</td>
+                            <td>Клуб 1, Клуб 2</td>
+                            <td>
+                                <button class="edit-button">
+                                    <img src="icons/pencil_mini.png" alt="pencil"/>
+                                </button>
+
+                                <button class="delete-button">
+                                    <img src="icons/trashbin_mini.png" alt="trash"/>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Смелов Владимир Владиславович</td>
+                            <td>Клуб 3</td>
+                            <td>
+                                <button class="edit-button">
+                                    <img src="icons/pencil_mini.png" alt="pencil"/>
+                                </button>
+
+                                <button class="delete-button">
+                                    <img src="icons/trashbin_mini.png" alt="trash"/>
+                                </button></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

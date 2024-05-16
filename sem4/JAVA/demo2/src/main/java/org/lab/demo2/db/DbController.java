@@ -27,7 +27,10 @@ public class DbController implements IConnection{
             logger.warning("Connection error: ");
             e.printStackTrace();
         }
+    }
 
+    public Connection GetConn(){
+        return this._connection;
     }
     public boolean Disconnect(){
         try{

@@ -1,0 +1,25 @@
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+          xmlns:x="http://java.sun.com/jsp/jstl/xml"
+          xmlns:c="http://java.sun.com/jsp/jstl/core"
+          version="2.0">
+    <jsp:directive.page contentType="text/html; charset=UTF-8"/>
+
+    <x:parse var="xmlData">
+        <c:import url="./data.xml"/>
+    </x:parse>
+
+    <html>
+        <head>
+            <title>XML Example</title>
+        </head>
+        <body>
+            <h1>XML Example</h1>
+            <x:forEach var="user"
+                       select="$xmlData/users/user">
+                E-mail:<x:out select="$user/email" />
+                <br/>
+            </x:forEach>
+        </body>
+    </html>
+</jsp:root>
