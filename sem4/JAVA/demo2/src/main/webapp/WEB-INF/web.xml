@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>Auth</servlet-name>
-        <servlet-class>org.lab.demo2.auth.Auth</servlet-class>
+        <servlet-class>org.lab.demo2.services.Auth</servlet-class>
     </servlet>
 
 </web-app>

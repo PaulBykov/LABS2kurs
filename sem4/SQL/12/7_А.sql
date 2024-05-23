@@ -1,0 +1,11 @@
+-- A ---
+          set transaction isolation level SERIALIZABLE 
+	begin transaction 
+	delete Курсы where Предмет = 'СД';  
+          insert Курсы values (15,  2,  1,  10,  'СД',  'ЛР');
+          update Курсы set Предмет = 'ОАиП' where Предмет = 'ООП';
+          select  Номер_группы from Курсы  where Предмет = 'БД';
+	-------------------------- t1 -----------------
+	select  Номер_группы from Курсы  where Предмет = 'БД';
+	-------------------------- t2 ------------------ 
+	commit; 	

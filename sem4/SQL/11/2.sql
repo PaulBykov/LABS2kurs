@@ -17,8 +17,8 @@ VALUES
 -- Глобальный курсор
 DECLARE @GlobalSubject NVARCHAR(100)
 DECLARE GlobalSubjectCursor CURSOR GLOBAL FOR
-SELECT Предмет
-FROM #Курсы
+	SELECT Предмет
+	FROM #Курсы
 OPEN GlobalSubjectCursor
 FETCH NEXT FROM GlobalSubjectCursor INTO @GlobalSubject
 PRINT 'Глобальный курсор:'
@@ -33,8 +33,8 @@ DEALLOCATE GlobalSubjectCursor
 -- Локальный курсор
 DECLARE @LocalSubject NVARCHAR(100)
 DECLARE LocalSubjectCursor CURSOR LOCAL FOR
-SELECT Предмет
-FROM #Курсы
+	SELECT Предмет
+	FROM #Курсы
 OPEN LocalSubjectCursor
 FETCH NEXT FROM LocalSubjectCursor INTO @LocalSubject
 PRINT 'Локальный курсор:'

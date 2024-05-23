@@ -11,7 +11,7 @@
 
     <tag>
         <name>bpaprintTable</name>
-        <tag-class>org.lab.demo2.BpaPrintTableTag</tag-class>
+        <tag-class>org.lab.demo2.helpers.BpaPrintTableTag</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <name>tableName</name>

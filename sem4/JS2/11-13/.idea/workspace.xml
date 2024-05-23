@@ -5,10 +5,148 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c107008-86dc-4928-878e-41a5dedd62a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widgets/movie/MovieCatalog/api/getMovies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/movie/MovieCatalog/api/getMovies.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/repositories/DbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/repositories/IConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/BpaPrintTableTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/helpers/BpaPrintTableTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/auth/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/db/DbController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/db/IConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/items/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/java/org/lab/demo2/services/ItemsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/WEB-INF/custom.tld" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/WEB-INF/custom.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/main/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/register/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVA/demo2/src/main/webapp/register/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../14/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../14/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/src/reducers/todos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../14/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-10/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../9-10/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9-10/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../9-10/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/4/Lab_4.1_original.mcdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/CMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/CMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/ChildView.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/ChildView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Lab01.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Lab01.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Lab01.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Lab03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Lab03.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/LibChart2D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/LibChart2D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/MainFrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/MainFrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/RCa09016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/Resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/res/Lab01.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/res/Lab01.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab01/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab3/Lab03.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/CMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/CMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/ChildView.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/ChildView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/Lab01.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/Lab01.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/Lab01.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/Lab04.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/Lab04.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/LibPlanets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/LibPlanets.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/MainFrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/MainFrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/RCa09016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/res/Lab01.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/res/Lab01.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab01/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/Lab04.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/res/Lab01.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab4_extra_task/res/Lab01.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab5/lab_05.xmcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/CMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/CMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/CPyramid.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/CPyramid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/ChildView.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/ChildView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/Lab2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/LibGraph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/LibGraph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/MainFrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/MainFrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/res/1.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/res/Lab2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/res/Lab2.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/res/Lab2Doc.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/res/Toolbar.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab6/Lab5.2/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/CMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/CMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/ChildView.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/ChildView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Lab01.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Lab01.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Lab01.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Lab09.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Lab09.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/LibGraph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/LibGraph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/MainFrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/MainFrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/RCa09016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/Resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/res/Lab01.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/res/Lab01.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab01/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/Lab09.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab9/маткад 11.xmcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/CMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/CMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/ChildView.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/ChildView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/Lab01.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/Lab01.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/Lab01.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/Lab06.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/Lab06.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/LibGraph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/LibGraph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/LibSurface.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/LibSurface.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/MainFrm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/MainFrm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/RCa09016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/res/Lab01.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/res/Lab01.rc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/stdafx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/stdafx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab01/targetver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OKG/lab_08/Lab06.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SQL/11/2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../SQL/11/2.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +247,7 @@
       <workItem from="1714478312138" duration="3518000" />
       <workItem from="1714483229945" duration="189000" />
       <workItem from="1715785774946" duration="640000" />
+      <workItem from="1716292562960" duration="95000" />
     </task>
     <servers />
   </component>

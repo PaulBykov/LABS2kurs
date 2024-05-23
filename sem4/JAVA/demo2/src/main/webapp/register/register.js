@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 
 function sendData(login, pass){
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/demo2-1.0-SNAPSHOT/Auth", true);
+    xhr.open("POST", "http://localhost:8080/demo2-1.0-SNAPSHOT/controller?command=register", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if(xhr.readyState === XMLHttpRequest.DONE ) {

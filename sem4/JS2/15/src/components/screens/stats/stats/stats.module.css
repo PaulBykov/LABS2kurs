@@ -1,0 +1,14 @@
+
+.stats{
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
